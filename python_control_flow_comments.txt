@@ -1,0 +1,6 @@
+1. hello will be printed if numbers are between 3 and 17
+2. hello will print if the number you divide by 3 is equal to 0
+3. hellow will print when you divide by 5 is equal to 3 or if you divide by 4 and you get 3
+4. z will print hellow if the number is less than 15
+5. it will not print hello because z is not equal to 31 or 18
+This is a recursive function meaning that the function calls itself
