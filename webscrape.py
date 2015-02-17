@@ -8,4 +8,5 @@ column = div_id.find_all(id="secondary-nav")
 for nav in column:
 	nav = nav.find("p", class_="subnavlinks")
 	names = p.a
+#removes eco title
 	print names.string.rstrip(s["ECOEVOPUB SERIES"])
