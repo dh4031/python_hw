@@ -2,8 +2,6 @@ import pexpect
 import os
 import glob
 
-os.chdir("/home/vagrant/examples") #where my primates file lives
-
 def mbRunner(fname, ngen = 5000):
     #this function starts a mrbayes run with fname for ngen generations
     child = pexpect.spawn("mb -i {}".format(fname))
@@ -44,3 +42,7 @@ afterFF = glob.glob("*.*")
 print "Now there are {} files in the directory and {} than end in '.t'".format(len(afterFF), len(glob.glob("*.t")))
 afterTree = glob.glob("*.t")
 print "The tree files are: " + ", ".join(afterTree) + "."
+
+
+
+
